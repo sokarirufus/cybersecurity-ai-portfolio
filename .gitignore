@@ -1,0 +1,36 @@
+# Environment variables
+.env
+.env.local
+*.env
+
+# Virtual environment
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Data files (never commit malware!)
+data/samples/
+data/raw/
+*.exe
+*.bin
+*.malware
+
+# Results and logs
+results/private/
+logs/
+*.log
+
+# IntelliJ
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries/
+
+# OS
+.DS_Store
+Thumbs.db
